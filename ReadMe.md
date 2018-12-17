@@ -11,4 +11,8 @@
   express  建立HTTP伺服器
   socket.io 加入socket.io在 server上
 <h3> 注意事項 客戶端js 第81行可以改用CDN的socket.io URL </h3>
-https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js  
+https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js
+<h3> 啟動伺服器後 </h3>
+可以連接的URL為 http://localhost:3000 預設為3000埠號和
+http://192.168.1.103:3000 (IPV4+埠號) 這個是內部網路的人也可以連到，只要打上IPV4+埠號
+以上都可連到聊天室
